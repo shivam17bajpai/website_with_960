@@ -4,8 +4,9 @@
 	outline:0;}
 
 body {
-    
-    background: url('images/body-bg.gif'); 
+    background-color: #020106;
+    background: url('images/back.jpg') ; 
+
 }
 #navigation ul li{
 	display: inline;
@@ -22,6 +23,7 @@ h2 {font-size:10px;
 .navigation {
 	background-color: #020106;
 	overflow:hidden;
+	background-size: 100%;
 }
 .navigation a{
 	float:left;
@@ -37,20 +39,26 @@ h2 {font-size:10px;
 	color:#d91d2a;
 }
 .top{
-	margin-left: 100px;
+	
+	
+	width: 100%;
 
 }
 
 .movie-image { float:left; 
-	width:400px; height:250px; 
+	width:300px; height:250px; 
 	position:relative; }
-.movie-image p{font-size:20px; 
-	color:#F1948A; font-weight:bold;
+.movie-image p{font-size:15px; 
+	color:black; font-weight:bold;
 	font-family: sans-serif;
 }
 
 .movie-image img { width:152px;
     height:214px; }
+
+ .movie-image a:hover{
+ 	transform:scale(1.30);
+ }
 
 .movie-image a { float: left; display: inline; 
 	width:152px; height:214px; position: 
@@ -65,9 +73,9 @@ h2 {font-size:10px;
 
 .hero {
 	height: 300px;
-	background-size: 1000px 300px;
+	background-size: 100% 300px;
     font-size: 20px;
-  	background-image: url("images/h.jpeg");
+  	background-image: url("images/hero.jpg");
     background-repeat: no-repeat;
     text-align: : center;
 
